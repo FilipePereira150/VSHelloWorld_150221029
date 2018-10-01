@@ -12,6 +12,8 @@ namespace VSHelloWorld_150221029
 {
     public class Program
     {
+        //Comentário de Teste
+
         public static void Main(string[] args)
         {
             CreateWebHostBuilder(args).Build().Run();
@@ -21,4 +23,6 @@ namespace VSHelloWorld_150221029
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>();
     }
+
+
 }
